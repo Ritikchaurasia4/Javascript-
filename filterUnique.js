@@ -4,8 +4,10 @@ let uniqueValues = numbers.filter((curElem , index , arr)=>{
 
     // console.log(curElem); 
 
-    // console.log(arr.indexOf(curElem)); 
+    // console.log(indexOf(arr.curElem)); 
 
-    return arr.indexOf(curElem) === index;
+     return arr.indexOf(curElem) === index;
+    
 });
-// console.log(uniqueValues);
+ console.log(uniqueValues);
+//  console.log(new Set(numbers));
