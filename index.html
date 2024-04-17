@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <div>
+        <h2>Simple DOM Todo API</h2>
+        <input type="text" id="inputField">
+        <button class="btn">Click me</button>
+        <div class="todoListElem"></div>
+    </div>
+    <script>
+       let inputElem = document.getElementById("inputField");
+       let clickBtn = document.querySelector(".btn");
+       let todoElem = document.querySelector(".todoListElem");
+
+       const addTodo = ()=>{
+        console.log(inputElem.value);
+        pElem.textContent = inputElem.value;
+        console.log(pElem);
+        todoElem.append(pElem);
+       };
+     </script>
+</body>
+</html>
