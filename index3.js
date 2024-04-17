@@ -19,7 +19,8 @@
     div.before(newBtn);  // add before the node
     div.after(newBtn);   // add after the node
 
-    // let p = document.querySelector("p");
+    //  let p = document.querySelector("p");
+    //  p.remove();
     // p.append(newBtn);
     // p.prepend(newBtn);
     
@@ -31,5 +32,6 @@
 let newHeading = document.createElement("h1");
 newHeading.innerHTML="<i> this is new Heading !</i>";
 document.querySelector("body").prepend(newHeading);
+// newHeading.remove();
 
 

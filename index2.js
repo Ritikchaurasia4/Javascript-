@@ -1,16 +1,16 @@
-// getAttribute value for any div then first of all we acces the div by the syntax
+// getAttribute value for any div then first of all we acces the div by the syntax document.querySelector(" ")
 
 // For div 
     let div = document.querySelector("div"); 
     console.log(div);
     let id = div.getAttribute("id");
-    console.log(id);
+    console.log(id); 
 
     let idName = div.getAttribute("name");
     console.log(idName);
 
 // For para we get the attribute
-    let para = document.querySelector("p");
+    let para = document.querySelector("p"); // access the pararaph
     console.log(para);
     let para1 = para.getAttribute("class");
     console.log(para1);
