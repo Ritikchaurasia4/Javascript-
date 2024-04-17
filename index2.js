@@ -23,9 +23,12 @@
 
 // now if we want to access to the styling of the div in javaScript then we will do 
 
-let div1 = document.querySelector("div");
-console.log(div1);
-div.style.backgroundColor="green";
-//div.style.backgroundColor="black";
-div.style.fontSize="25px";
-div.innerText="Hello!"; // Change the content 
+    let div1 = document.querySelector("div"); // access the div
+    console.log(div1);
+    div.style.backgroundColor="green";
+    //div.style.backgroundColor="black";
+    div.style.fontSize="25px";
+    div.innerText="Hello!"; // Change the content 
+
+// visibility hidden
+    // div.style.visibility="hidden";
