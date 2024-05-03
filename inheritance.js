@@ -13,6 +13,11 @@
 
     // let obj = new child();
 
+
+
+
+
+
     class person {                // class 
        
         constructor() {     // constructor 
@@ -43,6 +48,8 @@
         }
     }
 
-    let ritikObj = new Engineer();
+    let ritikObj = new Engineer()
+
+    
 
     
