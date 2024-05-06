@@ -12,4 +12,4 @@ try{
 
 console.log("sum is :",a);
 console.log("sum is :",b);
-console.log("sum is :",a-b);
+console.log("substraction is :",a-b);
