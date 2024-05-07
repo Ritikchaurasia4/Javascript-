@@ -6,6 +6,8 @@
 // getData(1);
 // getData(2);     // it is executing at a time , but if we want to execute at different time then we use callback hell
 
+// It is not a good way for coding ( using promises -> it's a good way)
+
 function getData(dataId , getnextData){
     setTimeout(() => {
         console.log("data",dataId);
