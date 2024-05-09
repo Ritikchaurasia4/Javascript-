@@ -29,3 +29,6 @@ getData(1).then((res) =>{
 }).then((res)=>{
     console.log(res);
 })
+
+
+// promise chain is also difficult to understand hence we use   Async-Await
