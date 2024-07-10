@@ -1,4 +1,4 @@
-// DOM (data object model ) Manipulation
+// DOM (document object model ) Manipulation
 
 // if we want to add new element then first of all we will have to create the element by the syntax document.createElement("div")
 //  as : if we want to access paragraph then we create paragraph 

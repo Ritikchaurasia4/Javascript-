@@ -1,7 +1,7 @@
-// getAttribute value for any div then first of all we acces the div by the syntax document.querySelector(" ")
+// get Attribute value for any div , first of all we access the div by the syntax document.querySelector(" ")
 
-// For div 
-    let div = document.querySelector("div"); 
+// For div we get the attribute
+    let div = document.querySelector("div");  //  div access
     console.log(div);
     let id = div.getAttribute("id");
     console.log(id); 
@@ -25,8 +25,9 @@
 
     let div1 = document.querySelector("div"); // access the div
     console.log(div1);
-    div.style.backgroundColor="green";
+    div.style.backgroundColor="red";
     //div.style.backgroundColor="black";
+    div.style.fontSize="25px";
     div.style.fontSize="25px";
     div.innerText="Hello!"; // Change the content 
 
