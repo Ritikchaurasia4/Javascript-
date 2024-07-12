@@ -46,7 +46,7 @@
 
 // Case 2 ------------------------------
 
-// If the object and prototype have same method object's method will be used . Example has shown below..
+// If the object and prototype have same method then object's method will be used . Example has shown below..
 
     const employee2 = {
         calcTax(){

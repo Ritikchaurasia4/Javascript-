@@ -7,36 +7,36 @@
 // let promises = new Promise((resolve , reject) => {
 //     console.log("I am promise:");
 
-//      resolve("Sucess");
+//     //  resolve("Sucess");
 
-//     //  reject("pending");
+//      reject("pending");
 // });
 
 // Here in below code He promises that after 4 second i will return you data and it's done .
 
-// function getData(dataId ,getNextData){
-//     return new Promise((resolve , reject) => {
-//         setTimeout(() => {
-//             console.log("Data" , dataId);
-//             // reject("pending");
-//             resolve("success");
-//             if(getNextData){
-//                 getNextData();
-//             }
-//         },4000);
-//     });
-// }
-
-// Here in below code He promises that after 4 second i will return you data but it fails (means , not return the data )
-
-function getData(dataId , getNextData){
-    return new Promise((resolve , reject ) =>{
-        setTimeout(() =>{
+function getData(dataId ,getNextData){
+    return new Promise((resolve , reject) => {
+        setTimeout(() => {
             console.log("Data" , dataId);
-            reject("Error");
+            // reject("pending");
+            resolve("success");
             if(getNextData){
                 getNextData();
             }
-        },2000);
+        },4000);
     });
 }
+
+// Here in below code He promises that after 4 second i will return you data but it fails (means , not return the data )
+
+// function getData(dataId , getNextData){
+//     return new Promise((resolve , reject ) =>{
+//         setTimeout(() =>{
+//             console.log("Data" , dataId);
+//             reject("Error");
+//             if(getNextData){
+//                 getNextData();
+//             }
+//         },2000);
+//     });
+// }

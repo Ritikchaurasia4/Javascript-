@@ -31,7 +31,7 @@
 
 function getData(dataId){
     return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
+        setTimeout((res)=>{
             console.log("Data",dataId);
             resolve(200);
         },2000);
