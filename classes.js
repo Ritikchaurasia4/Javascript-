@@ -2,9 +2,9 @@
 
 // Class is the program-code template for creating an object.
 
-// class is the bluprint for the creation of object.
+// class is the bluprint for the creation of an object.
 
-//------ When we create an object from the classes by the syntax ' let fortuner = new ToyotaCar() ' then the new keyword find a constructor in th classes but if there is no any one constructor in classes then the javascript automaticaly created a constructor .
+//------ When we create an object from the classes by the syntax ' let fortuner = new class_Name() ' then the new keyword find a constructor in th classes but if there is no any one constructor in classes then the javascript automaticaly created a constructor .
 //  ------ Show below
 
     // class ToyotaCar {
