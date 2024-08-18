@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of 2</title>
+    <style>
+        #reg
+        {
+            width: 250px;
+            height:200px;
+            background-color: red;
+            text-align: center;
+            font-size: 70px;
+            margin: 4px;
+            color: white;
+            line-height: 200px;
+            display: none;
+        }
+        #login
+        {
+            width: 250px;
+            height:200px;
+            background-color:black;
+            text-align: center;
+            font-size: 70px;
+            margin: 4px;
+            color: white;
+            line-height: 200px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="submit" valur="Register" id="btn1" onclick="Register()">
+    <input type="submit" value="login" id="btn2" onclick="Login()">
+
+    <div id="reg"><iframe width="560" height="315" src="https://www.youtube.com/embed/X7phS7CyRQk?si=tDiw5azF9ozfPjam" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    
+    <div id="login"><iframe width="560" height="315" src="https://www.youtube.com/embed/bi2OPrRwSTk?si=gG7GVe1UbMncr4fL&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+ 
+<script>
+    
+    function Register()
+    {
+        let reg = document.querySelector("#reg");
+        reg.style.display="block";
+        let log = document.querySelector("#login");
+        log.style.display="none";
+        
+    }
+
+    function Login()
+    {
+       
+        let log = document.querySelector("#login")
+        log.style.display = "block";
+        let reg = document.querySelector("#reg");
+        reg.style.display="none";
+    }
+</script>
+</body>
+</html>
+
+
+

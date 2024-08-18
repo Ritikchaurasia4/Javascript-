@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of 2</title>
+    <style>
+        #reg
+        {
+            width: 250px;
+            height:200px;
+            background:url(n.jpg);
+            text-align: center;
+            font-size: 70px;
+            margin: 4px;
+            color: white;
+            line-height: 200px;
+            display: none;
+        }
+        #login
+        {
+            width: 250px;
+            height:200px;
+            background:url(o.jpg);
+            text-align: center;
+            font-size: 70px;
+            margin: 4px;
+            color: white;
+            line-height: 200px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="submit" valur="Register" id="btn1" onclick="Register()">
+    <input type="submit" value="login" id="btn2" onclick="Login()">
+
+    <div id="reg">Register</div>
+    <div id="login">Login</div>
+ 
+<script>
+    
+    function Register()
+    {
+        let reg = document.querySelector("#reg");
+        reg.style.display="block";
+        let log = document.querySelector("#login");
+        log.style.display="none";
+        
+    }
+
+    function Login()
+    {
+       
+        let log = document.querySelector("#login")
+        log.style.display = "block";
+        let reg = document.querySelector("#reg");
+        reg.style.display="none";
+    }
+</script>
+</body>
+</html>
+
+
+
